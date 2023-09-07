@@ -6,19 +6,14 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <div className="flex flex-col md:flex-row md:h-screen">
+      <div className="flex h-screen">
         <div
-          className={`md:w-2/3 md:h-screen bg-cover bg-center ${
-            urlImagem ? `hidden md:block` : `md:w-full`
-          }`}
+          className="w-full bg-no-repeat"
           style={{ backgroundImage: `url(${urlImagem})` }}
-        />
-        <div className="flex-1 flex flex-col justify-center p-8">
-          <div className="text-4xl font-bold mb-4 text-gray-800">
-            Marília & Lucas
-          </div>
-          <div className="text-xl text-gray-600">
-            Data do Casamento: 10 de Outubro de 2023 às 20:00
+        >
+          <div className="text-white lg:text-blue-950 text-6xl text-end">
+            <h2 className="mt-12 bg-slate-400 bg-opacity-30 p-3 rounded-md mx-5">Marília & Lucas</h2>
+            <h3 className="mt-10 font-extralight text-3xl md:text-5xl">Data casamento: 01/10/2023</h3>
           </div>
         </div>
       </div>
