@@ -2,6 +2,7 @@ import Link from "next/link";
 import Banner from "./components/Banner";
 import Navbar from "./components/Nav/Navbar";
 import { BiLogoInstagram } from "react-icons/bi";
+import Image from "next/image";
 
 export default function Home() {
   const urlImagem = "/img/marilialucas.jpg";
@@ -41,10 +42,12 @@ export default function Home() {
 
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-5 items-center justify-center flex-col">
-            <img
+            <Image
               className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              width={1000}
+              height={1000}
+              src="/img/ML1.jpeg"
             />
             <div className="text-center lg:w-2/3 w-full">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -77,31 +80,33 @@ export default function Home() {
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
                   <p className="leading-relaxed mb-6">
-                    Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                    carry neutra before they sold out fixie 90's microdosing.
-                    Tacos pinterest fanny pack venmo, post-ironic heirloom
-                    try-hard pabst authentic iceland.
+                    O dia em que a conheci foi o início de um capítulo
+                    inesquecível da minha vida. Um encontro casual, um sorriso
+                    que iluminou meu mundo e uma conversa que nunca terminou.
+                    Hoje, estou prestes a casar com a mulher que mudou meu
+                    destino para sempre, e mal posso esperar para escrever o
+                    resto dessa história juntos.
                   </p>
-                  <a className="inline-flex items-center">
-                    <img
+                  <Link
+                    href={"https://www.instagram.com/lucascarrijoa/"}
+                    className="inline-flex items-center"
+                  >
+                    <Image
                       alt="testimonial"
-                      src="https://dummyimage.com/106x106"
+                      src="/img/lucao.jpeg"
+                      width={200}
+                      height={200}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Lucas Carrijo
                       </span>
-                      <span className="text-gray-500 text-sm">
-                        <Link
-                          href={"https://www.instagram.com/lucascarrijoa/"}
-                          className="items-center inline-flex"
-                        >
-                          <BiLogoInstagram /> @lucascarrijoa
-                        </Link>
+                      <span className="text-gray-500 text-sm flex items-center">
+                        <BiLogoInstagram /> @lucascarrijoa
                       </span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="p-4 md:w-1/2 w-full">
@@ -115,31 +120,32 @@ export default function Home() {
                     <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
                   </svg>
                   <p className="leading-relaxed mb-6">
-                    Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                    carry neutra before they sold out fixie 90's microdosing.
-                    Tacos pinterest fanny pack venmo, post-ironic heirloom
-                    try-hard pabst authentic iceland.
+                    Nosso encontro foi como um conto de fadas moderno. Através
+                    de amigos em comum, nossos olhares se cruzaram e o mundo
+                    inteiro desapareceu naquele momento mágico. Hoje, estou
+                    prestes a casar com o homem dos meus sonhos, a melhor
+                    história que já vivi.
                   </p>
-                  <a className="inline-flex items-center">
-                    <img
+                  <Link
+                    href={"https://www.instagram.com/marilia.cintra/"}
+                    className="inline-flex items-center"
+                  >
+                    <Image
                       alt="testimonial"
-                      src="https://dummyimage.com/107x107"
+                      src="/img/marilia.jpeg"
+                      width={200}
+                      height={200}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Marília Cintra
                       </span>
-                      <span className="text-gray-500 text-sm">
-                        <Link
-                          href={"https://www.instagram.com/marilia.cintra/"}
-                          className="items-center inline-flex"
-                        >
-                          <BiLogoInstagram /> @marilia.cintra
-                        </Link>
+                      <span className="text-gray-500 text-sm flex items-center">
+                        <BiLogoInstagram /> @marilia.cintra
                       </span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
