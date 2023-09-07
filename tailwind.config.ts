@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         greatVibes: ["Great Vibes"],
+        vibes: ["Vibes"],
       },
     },
   },
