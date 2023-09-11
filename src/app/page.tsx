@@ -31,7 +31,7 @@ export default function Home() {
             </div>
 
             <div className="mt-10 font-extralight text-3xl md:text-5xl m-5 text-right md:p-10">
-              <h3>Nosso casamento será: 01/10/2023</h3>
+              <h3>Nosso casamento será: 17/02/2024</h3>
               <h3>Local: Mosteiro de Claraval</h3>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Home() {
         <h1 className="text-center text-6xl font-vibes">O Casamento</h1>
         <div className="flex justify-between">
           <div>
-            <h2>Data: 10/10/2023 ás 20:31h</h2>
+            <h2>Data: 17/02/2024 ás 15:45h</h2>
           </div>
           <div>
             <h2>Local: Mosteiro de Claraval</h2>
