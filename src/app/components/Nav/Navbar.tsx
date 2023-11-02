@@ -8,6 +8,7 @@ export default function Navbar() {
         <NavbarLink href="#nossa-historia" value="Nossa História" />
         <NavbarLink href="#casamento" value="O Casamento" />
         <NavbarLink href="#lista-presente" value="Lista de presentes" />
+        <NavbarLink href="confirma-presenca" value="Confirma presença" />
       </ul>
     </nav>
   );
