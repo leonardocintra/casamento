@@ -36,7 +36,7 @@ export default function Banner() {
           >
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Nosso casamento será dia 10 de outubro de 2023 as 20:00h
+          Nosso casamento será dia 17 de fevereiro de 2024 as 15:45h
         </p>
         <a
           href="#"

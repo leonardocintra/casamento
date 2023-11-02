@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ConfirmaPresencaPage() {
   return (
@@ -36,7 +37,10 @@ export default function ConfirmaPresencaPage() {
                 Obrigado por fazer parte desse momento especial em nossas vidas.
                 Sua presença tornará nosso casamento ainda mais memorável!
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
+              <Link
+                className="mt-3 text-indigo-500 inline-flex items-center"
+                href="https://wa.me/5516999735008?text=Ola, Gostaria de confirmar minha presença no casamento de Marilia & Lucas"
+              >
                 Confirmar presença
                 <svg
                   fill="none"
@@ -49,7 +53,7 @@ export default function ConfirmaPresencaPage() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col mb-10 lg:items-start items-center">
@@ -115,7 +119,7 @@ export default function ConfirmaPresencaPage() {
               <p className="leading-relaxed text-base">
                 Descubra nossa história de amor aqui.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
+              <Link href={"/"} className="mt-3 text-indigo-500 inline-flex items-center">
                 Nossa história
                 <svg
                   fill="none"
@@ -128,7 +132,7 @@ export default function ConfirmaPresencaPage() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

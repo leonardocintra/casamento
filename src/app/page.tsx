@@ -154,12 +154,35 @@ export default function Home() {
       </div>
       <div id="casamento" className="p-5 mt-2 bg-green-200 m-3 rounded-xl">
         <h1 className="text-center text-6xl font-vibes">O Casamento</h1>
-        <div className="flex justify-between">
-          <div>
-            <h2>Data: 17/02/2024 ás 15:45h</h2>
+        <div className="flex flex-col items-center justify-center ">
+          <div className="">
+            <Image
+              src={"/img/mosteiro.jpg"}
+              alt="mosteiro de claraval"
+              className="rounded-xl shadow-md"
+              width={500}
+              height={500}
+            />
+            <div className="flex justify-center mt-2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d934.9029427447746!2d-47.28441116216148!3d-20.39889100223928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0bcd79920fd85%3A0x18be5cc6d5779b3b!2sMosteiro%20Cisterciense%20de%20Claraval!5e0!3m2!1spt-BR!2sbr!4v1698356716189!5m2!1spt-BR!2sbr"
+                width="auto"
+                height="auto"
+                style={{
+                  border: 0,
+                }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
-          <div>
-            <h2>Local: Mosteiro de Claraval</h2>
+          <div className="mt-2">
+            <div>
+              <h2>Data: 17/02/2024 ás 15:45h</h2>
+            </div>
+            <div>
+              <h2>Local: Mosteiro de Claraval</h2>
+            </div>
           </div>
         </div>
       </div>
