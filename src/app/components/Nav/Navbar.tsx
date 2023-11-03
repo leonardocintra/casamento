@@ -7,8 +7,8 @@ export default function Navbar() {
         <NavbarLink href="#home" value="Home" />
         <NavbarLink href="#nossa-historia" value="Nossa História" />
         <NavbarLink href="#casamento" value="O Casamento" />
-        <NavbarLink href="#lista-presente" value="Lista de presentes" />
-        <NavbarLink href="confirma-presenca" value="Confirma presença" />
+        <NavbarLink href="#lista-presente" value="Lista de presentes" css="bg-pink-500" />
+        <NavbarLink href="confirma-presenca" value="Confirma presença" css="bg-green-500" />
       </ul>
     </nav>
   );
