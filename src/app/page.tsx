@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Navbar from "./components/Nav/Navbar";
 import { BiLogoInstagram } from "react-icons/bi";
 import Image from "next/image";
+import Carrossel from "./components/Carrosel";
 
 export default function Home() {
   const urlImagem = "/img/marilialucas.jpg";
@@ -40,15 +41,10 @@ export default function Home() {
       <div id="nossa-historia" className="p-5 mt-2 bg-pink-100 m-3 rounded-xl">
         <h1 className="text-center text-6xl font-vibes">Nossa História</h1>
 
+        <Carrossel />
+
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-5 items-center justify-center flex-col">
-            <Image
-              className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-              alt="hero"
-              width={1000}
-              height={1000}
-              src="/img/ML1.jpeg"
-            />
             <div className="text-center lg:w-2/3 w-full">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                 Nossa verdadeira história esta só começando ...
