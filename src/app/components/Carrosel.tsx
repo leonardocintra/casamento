@@ -7,8 +7,8 @@ export default function Carrossel() {
         <Image
           src={src}
           className="rounded-box"
-          width={200}
-          height={200}
+          width={300}
+          height={300}
           alt="foto lucas e marilia"
         />
       </div>
@@ -18,13 +18,14 @@ export default function Carrossel() {
   return (
     <div className="flex justify-center">
       <div className="carousel carousel-center p-2 space-x-3 bg-neutral rounded-box bg-transparent">
-        {renderImage("/img/ML1.jpeg")}
-        {renderImage("/img/marilialucas.jpg")}
         {renderImage("/img/casal/1.jpg")}
         {renderImage("/img/casal/2.jpg")}
         {renderImage("/img/casal/3.jpg")}
         {renderImage("/img/casal/4.jpg")}
         {renderImage("/img/casal/5.jpg")}
+        {renderImage("/img/casal/6.jpg")}
+        {renderImage("/img/casal/7.jpg")}
+        {renderImage("/img/marilialucas.jpg")}
       </div>
     </div>
   );
