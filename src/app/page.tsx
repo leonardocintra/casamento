@@ -37,7 +37,7 @@ export default function Home() {
               <ButtonCasamento
                 css="bg-red-700"
                 value="Confirmar presença"
-                href="https://wa.me/5516999735008?text=Ola, Gostaria de confirmar minha presença para o casamento de Marilia e Lucas que será no dia 17/02/2024.%0AOs nomes dos presentes são:%0A"
+                href="https://wa.me/5516994327371?text=Ola, Gostaria de confirmar minha presença para o casamento de Marilia e Lucas que será no dia 17/02/2024.%0AOs nomes dos presentes são:%0A"
               />
               <ButtonCasamento
                 css="bg-red-800"
@@ -90,12 +90,12 @@ export default function Home() {
         </div>
       </div>
       <div id="lista-presente" className="p-5 mt-2 bg-blue-100 m-3 rounded-xl">
-        <h1 className="text-center text-6xl font-vibes">Lista Presente</h1>
+        <h1 className="text-center text-6xl font-vibes">Lista Presentes</h1>
         <div className="flex flex-col sm:flex-row items-center justify-center text-center space-x-2">
           <Link href="https://www.querodecasamento.com.br/lista-de-casamento/marilia-cristina-cintra-lucas-carrijo-de-andrade" className="inline-block">
             <Image
               src="/img/magalu.jpg" // Substitua pelo caminho real da sua imagem
-              alt="ChatGPT"
+              alt="Magalu"
               width={200}
               height={200}
               className="object-cover rounded-md shadow-md hover:shadow-lg"
@@ -105,7 +105,7 @@ export default function Home() {
           <Link href="/caminho-do-seu-link" className="inline-block mt-4">
             <Image
               src="/img/havan.jpg" // Substitua pelo caminho real da sua imagem
-              alt="ChatGPT"
+              alt="Havan"
               width={200}
               height={200}
               className="object-cover rounded-md shadow-md hover:shadow-lg"

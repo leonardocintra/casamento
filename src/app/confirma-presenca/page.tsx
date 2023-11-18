@@ -26,7 +26,7 @@ export default function ConfirmaPresencaPage() {
               </p>
               <Link
                 className="mt-10 block w-full rounded-md bg-green-700 px-3 py-3 text-center text-xl font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                href="https://wa.me/5516999735008?text=Ola, Gostaria de confirmar minha presença para o casamento de Marilia e Lucas que será no dia 17/02/2024.%0AOs nomes dos presentes são:%0A"
+                href="https://wa.me/5516994327371?text=Ola, Gostaria de confirmar minha presença para o casamento de Marilia e Lucas que será no dia 17/02/2024.%0AOs nomes dos presentes são:%0A"
               >
                 Confirmar presença
               </Link>
